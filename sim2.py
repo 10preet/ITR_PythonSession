@@ -40,7 +40,7 @@ class object(Renderer):
         self.y=y
         
         self.its += 1
-        if self.its % 50 == 0:
+        if self.its % 20 == 0:
             self.points.add((self.x, self.y))
 
     def draw(self,image):

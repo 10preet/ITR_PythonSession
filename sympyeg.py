@@ -3,6 +3,8 @@ import numpy as np
 import scipy
 import sympy as sp
 
+#SymPy is an open-source Python library for symbolic computation. It provides computer algebra capabilities either
+#as a standalone application, as a library to other applications, or live on the web as SymPy Live or SymPy Gamma.
 def ComputeEOM(D,V,n):
     phi=[0]*n
     c = [[[0] * n] * n] * n
